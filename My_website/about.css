@@ -1,12 +1,17 @@
 body{
     background-color:#607d8b;
-    font-family:"Helvetica";
+    font-family:"Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    font-weight:bold;
     color: #003366;
     text-align: justify;
 }
 h1{
-    font-size:1.3em;
-    text-align:center;
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
 }
 table{
     margin-left:auto;
@@ -24,3 +29,80 @@ th{
     color:#ffffff;
     background-color:#003366;
 }
+p {
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    font-size: larger;
+    font-weight: bold;
+    border-style: solid;
+    border-width: medium;
+}
+#thomas{
+    border-style: none;
+    border-width: thin;
+}
+h3 {
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+blockquote {
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	font-size: 21px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 30px;
+}
+pre {
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18.5714px;
+}
+a:hover{
+    text-decoration: none;
+}
+a:active{
+    text-decoration:none;
+}
+
+a{
+    color: blue;
+}
+ a:link {
+    background-color: yellow;
+    font-size: larger;
+    text-align-last: auto;
+    
+}
+
+a:visited {
+    background-color:#607d8b;
+}
+
+a:hover {
+    background-color: cyan;
+}
+
+a:active {
+    background-color: red;
+}
+.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+}
+#favorite{
+    font-weight: bold
+}
+#nethan{
+    font-weight: bolder;
+}
+#grade{
+    font-weight:bolder;
+}
+    
