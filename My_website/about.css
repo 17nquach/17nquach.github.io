@@ -1,5 +1,5 @@
 body{
-    background-color:#607d8b;
+    background-color:#40e0d0;
     font-family:"Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     font-weight:bold;
     color: #003366;
@@ -108,5 +108,9 @@ a:active {
 #sources{
     border-style: none;
     border-width: 0px;
+}
+#quote{
+    font-weight:bolder;
+
 }
     

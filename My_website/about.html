@@ -12,7 +12,7 @@
     </style>
     <style>
     ul {
-    list-style-type: none;
+    list-style-type:none;
     margin: 0;
     padding: 0;
     width: 200px;
@@ -35,12 +35,22 @@ li a:hover:not(.active) {
     background-color: #555;
     color: cyan;
 }
-  table {
+  table, th, td {
+    border: 1px solid black;
     border-collapse: collapse;
+    width: 100%;
 }
 
-table, th, td {
-    border: 1px solid black;
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #008080;
+    color: #003366;
 }
     </style>
 
@@ -48,8 +58,8 @@ table, th, td {
   </style>
   <body>
     
-   <center><h1 id="nethan">Nethan Quach</h1></center>
-  <center><h1 id="grade">Grade: 12</h1></center>
+   <center><h2 id="nethan">Nethan Quach</h2></center>
+  <center><h2 id="grade">Grade: 12</h2></center>
   <center><img src="images/gif.gif" style="width:400px;height:400px;"></center>
     
   
@@ -66,26 +76,26 @@ table, th, td {
     <p>Hi, my name is Nethan.  After High school, I will go to community college for two years and then transfer to UCI or Cal State long Beach.
     I play league of Legends and I like swimming.  I am 6'1.  I have 5 siblings.  I like school because I like to learn. My favorite food is ice cream.  My favorite ice cream flavor is vanilla.  </p>
     
-    <h1> Hobbies</h1>
+    <h2> Hobbies</h2>
     <ol style="list-style-type:disc"></ol>
       <li>Gaming</li>
       <li>Swimming</li>
       <li>Building Computers</li>
-      <li>Exercise</li>
+      <li>Exercising</li>
     </ol>
     <h2>Top 4 Songs</h2>
     <ol type="1">
       <li>Fur Elise</li>
-      <li>One Dance</li>
+      <li>Symphony No.9</li>
       <li>Closer</li>
       <li>Requiem</li>
     </ol>
-    <h1>Favorite Quote</h1>
+    <h2 id="quote">Favorite Quote</h2>
     
     <q>Our greatest weakness lies in giving up.  The most certain way to succeed is always to try just one more time.</q>
     <p id="thomas">Thomas Edison</p>
     <center><h1 id="favorite">Favorite Picture</h1></center>
-    <center><img src="images/tyler1.jpg" style="width800px;height800px;"></center>
+    <center><img src="images/tyler1.jpg" style="width=800px;height=800px;"></center>
     
     <p id="sources">www.kotaku.com.au</p>
     
