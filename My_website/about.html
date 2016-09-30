@@ -1,24 +1,56 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <center><a href="index.html">Home</a></center>
-    <center><a href="about.html">About</a></center>
-    <center><a href="portfolio.html">Portfolio</a></center>
+    <ul>
+    <li><center><a href="index.html">Home</a></center></li>
+    <li><center><a href="about.html">About</a></center></li>
+    <li><center><a href="portfolio.html">Portfolio</a></center></li>
+    </ul>
     <meta charset="utf-8">
     <title>About Me!</title>
     <link href="about.css" rel="stylesheet" type="text/css">
+    </style>
     <style>
-      table, th, td {
-        border:2px solid black;
-      }
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: cyan;
+}
+  table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
     </style>
 
   </head>
   </style>
   <body>
-    <center><h1 id="nethan">Nethan Quach</h1></center>
-    <center><h1 id="grade">Grade: 12</h1></center>
-    <center><img src="images/gif.gif" style="width:400px;height:400px;"></center>
+    
+   <center><h1 id="nethan">Nethan Quach</h1></center>
+  <center><h1 id="grade">Grade: 12</h1></center>
+  <center><img src="images/gif.gif" style="width:400px;height:400px;"></center>
     
   
 
@@ -32,7 +64,7 @@
     <tr><td>Pre-Calculus</td><td>6</td></tr>
     </table>
     <p>Hi, my name is Nethan.  After High school, I will go to community college for two years and then transfer to UCI or Cal State long Beach.
-    I play league of Legends and I like swimming.  I am 6'1.  I have 5 siblings.  I like school because I like to learn. My favorite food is ice cream.  My favorite ice cream flavor is vanilla.  I have my own gaming desktop.  </p>
+    I play league of Legends and I like swimming.  I am 6'1.  I have 5 siblings.  I like school because I like to learn. My favorite food is ice cream.  My favorite ice cream flavor is vanilla.  </p>
     
     <h1> Hobbies</h1>
     <ol style="list-style-type:disc"></ol>
@@ -43,10 +75,10 @@
     </ol>
     <h2>Top 4 Songs</h2>
     <ol type="1">
-      <li>7 Years</li>
+      <li>Fur Elise</li>
       <li>One Dance</li>
       <li>Closer</li>
-      <li>Pillowtalk</li>
+      <li>Requiem</li>
     </ol>
     <h1>Favorite Quote</h1>
     
@@ -55,6 +87,7 @@
     <center><h1 id="favorite">Favorite Picture</h1></center>
     <center><img src="images/tyler1.jpg" style="width800px;height800px;"></center>
     
+    <p id="sources">www.kotaku.com.au</p>
     
     
     

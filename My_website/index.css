@@ -10,28 +10,30 @@ h1{
     text-align: center
 }
 a:hover{
-    text-decoration: underline;
+    text-decoration: none;
 }
 a:active{
-    text-decoration:underline;
+    text-decoration:none;
 }
+
 a{
-    color: white;
+    color: blue;
 }
  a:link {
     background-color: yellow;
+    font-size: larger;
+    text-align-last: auto;
+    
 }
 
 a:visited {
-    background-color: cyan;
+    background-color:#607d8b;
 }
 
 a:hover {
-    background-color: lightgreen;
+    background-color: cyan;
 }
 
 a:active {
-    background-color: hotpink;
-}    
-    
-
+    background-color: red;
+}

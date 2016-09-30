@@ -105,4 +105,8 @@ a:active {
 #grade{
     font-weight:bolder;
 }
+#sources{
+    border-style: none;
+    border-width: 0px;
+}
     
